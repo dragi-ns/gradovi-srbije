@@ -1,0 +1,66 @@
+* {
+    font-family: "Noto Sans", "Ubuntu", "Liberation Sans", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+#game_info,
+#user_instruction_label,
+box.map_point revealer label {
+    color: #EBEBEB;
+    font-weight: bold;
+    background-color: rgba(78, 76, 70, 0.4);
+    text-shadow: 1px 0 0 #000000, 0 -1px 0 #000000, 0 1px 0 #000000, -1px 0 0 #000000;
+}
+
+#game_info {
+    padding: 2px;
+}
+
+box.map_point revealer label {
+    padding: 2px;
+    border-radius: 10%;
+}
+
+#game_info label.remaining {
+    color: #FFC107;
+}
+
+#game_info label.correct,
+box.map_point.correct revealer label {
+    color: #32bea6;
+}
+
+
+#game_info label.incorrect,
+box.map_point.incorrect revealer label {
+    color: #f44336;
+}
+
+box.map_point button {
+    margin: 0;
+    padding: 0;
+    min-width: 24px;
+    min-height: 24px;
+    border: none;
+    border-radius: 50%;
+    background: none;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+box.map_point button:active {
+    border: none;
+    background: none;
+}
+
+box.map_point.mistery button {
+    background-image: url("/ns/dragi/gradovi-srbije/mistery");
+}
+
+box.map_point.correct button {
+    background-image: url("/ns/dragi/gradovi-srbije/correct");
+}
+
+box.map_point.incorrect button {
+    background-image: url("/ns/dragi/gradovi-srbije/incorrect");
+}

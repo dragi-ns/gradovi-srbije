@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/ns/dragi/gradovi-srbije">
+    <file alias="styles.css">resources/styles/styles.css</file>
+    <file preprocess="xml-stripblanks" compressed="true" alias="main.glade">resources/glade/main.glade</file>
+    <file compressed="true" alias="cities.json">resources/data/cities.json</file>
+
+    <file alias="correct">resources/images/correct.png</file>
+    <file alias="incorrect">resources/images/incorrect.png</file>
+    <file alias="mistery">resources/images/question.png</file>
+    <file alias="map-of-serbia">resources/images/map-of-serbia.png</file>
+    <file alias="gradovi-srbije">resources/images/gradovi-srbije-48.png</file>
+
+    <file alias="Bor">resources/images/Bor.png</file>
+    <file alias="Smederevo">resources/images/Smederevo.png</file>
+    <file alias="Niš">resources/images/Niš.png</file>
+    <file alias="Zrenjanin">resources/images/Zrenjanin.png</file>
+    <file alias="Beograd">resources/images/Beograd.png</file>
+    <file alias="Požarevac">resources/images/Požarevac.png</file>
+    <file alias="Leskovac">resources/images/Leskovac.png</file>
+    <file alias="Subotica">resources/images/Subotica.png</file>
+    <file alias="Šabac">resources/images/Šabac.png</file>
+    <file alias="Kruševac">resources/images/Kruševac.png</file>
+    <file alias="Vršac">resources/images/Vršac.png</file>
+    <file alias="Čačak">resources/images/Čačak.png</file>
+    <file alias="Kraljevo">resources/images/Kraljevo.png</file>
+    <file alias="Jagodina">resources/images/Jagodina.png</file>
+    <file alias="Sombor">resources/images/Sombor.png</file>
+    <file alias="Vranje">resources/images/Vranje.png</file>
+    <file alias="Zaječar">resources/images/Zaječar.png</file>
+    <file alias="Pančevo">resources/images/Pančevo.png</file>
+    <file alias="Pirot">resources/images/Pirot.png</file>
+    <file alias="Kikinda">resources/images/Kikinda.png</file>
+    <file alias="Priština">resources/images/Priština.png</file>
+    <file alias="Prokuplje">resources/images/Prokuplje.png</file>
+    <file alias="Loznica">resources/images/Loznica.png</file>
+    <file alias="Kragujevac">resources/images/Kragujevac.png</file>
+    <file alias="Sremska Mitrovica">resources/images/Sremska Mitrovica.png</file>
+    <file alias="Novi Pazar">resources/images/Novi Pazar.png</file>
+    <file alias="Valjevo">resources/images/Valjevo.png</file>
+    <file alias="Užice">resources/images/Užice.png</file>
+    <file alias="Novi Sad">resources/images/Novi Sad.png</file>
+  </gresource>
+</gresources>

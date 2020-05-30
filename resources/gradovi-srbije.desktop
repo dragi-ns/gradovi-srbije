@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Gradovi Srbije
+Comment=Jednostavna igra u kojoj igrač treba da pronađe lokaciju grada na mapi (selekcija) ili da na osnovu odabrane lokacije na mapi unese ime grada (unos).
+Icon=gradovi-srbije
+Exec=/usr/bin/gradovi-srbije
+Terminal=false
+Categories=Game;

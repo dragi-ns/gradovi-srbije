@@ -1,0 +1,9 @@
+.vscode/
+build/
+*.o
+*.glade~
+gradovi-srbije
+gradovi-srbije.exe
+build-windows.sh
+windows-installer-setup-32.iss
+windows-installer-setup-64.iss

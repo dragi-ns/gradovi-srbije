@@ -1,0 +1,22 @@
+1 VERSIONINFO
+FILEVERSION     1,0,0,0
+PRODUCTVERSION  1,0,0,0
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "041A04E2"
+    BEGIN
+      VALUE "CompanyName", "dragi-ns"
+      VALUE "FileDescription", "Kviz Gradovi Srbije"
+      VALUE "FileVersion", "1.0"
+      VALUE "InternalName", "gradovi-srbije"
+      VALUE "OriginalFilename", "gradovi-srbije.exe"
+      VALUE "ProductName", "Gradovi Srbije"
+      VALUE "ProductVersion", "1.0"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x41A, 1250
+  END
+END
