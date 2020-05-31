@@ -10,31 +10,53 @@ Jednostavna igra u kojoj igrač treba da pronađe lokaciju grada na mapi (selekc
 
 ## Linux
 
-### Ubuntu Mate 18.04.1, Ubuntu Mate 20.04
+### Ubuntu Mate 18.04.1, Ubuntu Mate 20.04, Solus OS 4.1
 
 **Obavezno** (razvojne datoteke za kompajliranje):
 ```bash
+# ubuntu
 sudo apt install build-essential # libc, gcc, make itd...
 sudo apt install libgtk-3-dev # gtk3 dev, glib2 dev, pkg-config itd...
 sudo apt install libjson-glib-dev # glib json dev biblioteka
+
+# solus os
+sudo eopkg install -c system.devel
+sudo eopkg install libgtk-3-devel
+sudo eopkg install libjson-glib-devel
 ```
 *Opcionalno*:
 
 ```bash
+# ubuntu
 sudo apt install libxml2-utils # koristi se u .gresource.xml datoteci (xmllint)
+
+# solus os
+sudo eopkg install libxml2
 ```
 
 ```bash
+# ubuntu
 sudo apt install fonts-noto # Noto font
+
+# solus os
+sudo eopkg install noto-sans-ttf
 ```
 ili
 
 ```bash
+# ubuntu
 sudo apt install fonts-ubuntu # Ubuntu font
+
+# solus os
+sudo eopkg install font-ubuntu-ttf
 ```
 ili
 ```bash
+# ubuntu
 sudo apt install fonts-liberation2 # Liberation font
+
+# solus os
+sudo eopkg install liberation-fonts-ttf
 ```
 
 Ukoliko ste instalirali neki od navedenih fontova, izvršite sledeću komandu:
@@ -65,8 +87,8 @@ sudo ./uninstall-linux.sh
 ## Windows 10
 Preuzmite instalaciju za Windows 10 (**PREPORUČENO**):
 
-1. 32bit: [gradovi-srbije-32-instalacija.exe](https://github.com/dragi-ns/gradovi-srbije/releases/download/1.0/gradovi-srbije-32-instalacija.exe)
-2. 64bit: [gradovi-srbije-64-instalacija.exe](https://github.com/dragi-ns/gradovi-srbije/releases/download/1.0/gradovi-srbije-64-instalacija.exe)
+1. 32bit: [gradovi-srbije-32-instalacija.exe](https://github.com/dragi-ns/gradovi-srbije/releases/download/1.0.1/gradovi-srbije-32-instalacija.exe)
+2. 64bit: [gradovi-srbije-64-instalacija.exe](https://github.com/dragi-ns/gradovi-srbije/releases/download/1.0.1/gradovi-srbije-64-instalacija.exe)
 
 Ukoliko želite da sami da kompajlirate iz izvora (**NIJE PREPORUČENO**) pratite sledeće upustvo:
 

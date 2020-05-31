@@ -15,7 +15,7 @@ for i in 16 32 48 128 256
 do
 	rm -f "/usr/share/icons/hicolor/${i}x${i}/apps/${APP_NAME}.png"
 done
-update-icon-caches /usr/share/icons/*
+gtk-update-icon-cache /usr/share/icons/hicolor/
 echo  "[done]"
 
 echo -n "Removing .desktop file from /usr/share/applications ......"

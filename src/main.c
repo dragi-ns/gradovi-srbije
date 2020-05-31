@@ -375,7 +375,7 @@ static void toggle_map_points_state(App_context *context, gboolean toggle) {
 
 static guint toggle_mode_radio_buttons_state(App_widgets *widgets, gboolean toggle) {
     GSList *i;
-    guint mode;
+    guint mode = 0;
 
     for (i = widgets->mode_rb; i != NULL; i = i->next) {
         if (gtk_toggle_button_get_active(GTK_TOGGLE_BUTTON(i->data))) {
@@ -393,7 +393,7 @@ static guint toggle_mode_radio_buttons_state(App_widgets *widgets, gboolean togg
 
 static guint toggle_difficulty_radio_buttons_state(App_widgets *widgets, gboolean toggle) {
     GSList *i;
-    guint difficulty;
+    guint difficulty = 0;
 
     for (i = widgets->difficulty_rb; i != NULL; i = i->next) {
         if (gtk_toggle_button_get_active(GTK_TOGGLE_BUTTON(i->data))) {

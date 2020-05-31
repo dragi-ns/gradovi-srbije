@@ -37,7 +37,7 @@ for i in 16 32 48 128 256
 do
 	cp -f "${SOURCEDIR}/resources/images/${APP_NAME}-${i}.png" "/usr/share/icons/hicolor/${i}x${i}/apps/${APP_NAME}.png"
 done
-update-icon-caches /usr/share/icons/*
+gtk-update-icon-cache /usr/share/icons/hicolor/
 echo "[done]"
 
 echo -n "Copying .desktop file to /usr/share/applications......"
